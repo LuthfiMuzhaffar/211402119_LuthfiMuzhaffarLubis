@@ -1,0 +1,11 @@
+MariaDB [sbd]> Selet * FROM 211402119;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Selet * FROM 211402119' at line 1
+MariaDB [sbd]> SELECT * FROM nim_211402119;
++---------+-----------+--------+--------------------+----------+-----------+------------+--------------+-----------+
+| Task Id | Nama Task | Status | Kategori Indikator | Kategori | Indikator | Creator Id | Creator Name | Prioritas |
++---------+-----------+--------+--------------------+----------+-----------+------------+--------------+-----------+
+| NULL    | NULL      | NULL   | NULL               | NULL     | NULL      | NULL       | User B       |      NULL |
+| NULL    | NULL      | NULL   | NULL               | NULL     | NULL      | NULL       | User A       |      NULL |
++---------+-----------+--------+--------------------+----------+-----------+------------+--------------+-----------+
+2 rows in set (0.000 sec)
+
